@@ -38,7 +38,7 @@ app.cfg = {
 			id: "side",
 			thumbnail: "resources/tpl/builder/icons/builder-layout-side.png",
 			liveApp: "http://links.esri.com/storymaps/map_journal_example_side_panel",
-			sizes: { small: '30%', medium: '40%', large: '50%' },
+			sizes: { small: '25%', medium: '30%', large: '50%' },
 			positions: ["left", "right"],
 			themes: [
 				{name: "side-default-1", themeMajor: "white", dotNav: "#777777", panel: "#FFFFFF", media: "#EEEEEE", text: "#000000", textLink: "#555", softText: "#c0c0c0", softBtn: "#444",    esriLogo: "black"},
@@ -53,7 +53,7 @@ app.cfg = {
 			id: "float",
 			thumbnail: "resources/tpl/builder/icons/builder-layout-float.png",
 			liveApp: "http://links.esri.com/storymaps/map_journal_example_floating_panel",
-			sizes: { small: '25%', medium: '35%', large: '45%' },
+			sizes: { small: '22%', medium: '30%', large: '40%' },
 			positions: ["right", "left"],
 			themes: [
 				{name: "float-default-1", themeMajor: "black", dotNav: "#000000", panel: "#000000", media: "#000000", text: "#FFFFFF", textLink: "#DDD", softText: "#FFF",    softBtn: "#AAA", esriLogo: "white"}
