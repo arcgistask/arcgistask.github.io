@@ -1,0 +1,13 @@
+<div style="text-align: center; margin:5px;">
+  <button  type="button" id="toggle-map-dniprovsky" class="btn btn-default btn-md" onfocus="var button = document.getElementById('toggle-map-dniprovsky');
+  
+  button.onclick = function() {
+      var div = document.getElementById('esri.Map_0_World_Imagery_3806');
+      if (div.style.display !== 'none') {
+          div.style.display = 'none';
+      }
+      else {
+          div.style.display = 'block';
+      }
+  };">Перемкнути перегляд</button>
+</div>
