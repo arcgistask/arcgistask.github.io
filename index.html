@@ -353,21 +353,36 @@
 		
 		<script type="text/javascript" src="app/main-config.js"></script>
 		<script type="text/javascript">
-			require(["dojo/topic"], function(topic) {
-				/*
-				 * Custom Javascript to be executed while the application is initializing goes here
-				 */
+			require([
+					'dojo/topic',
+					'dojo/_base/array',
+					'dojo/dom-geometry',
+					'esri/map',
+					'esri/layers/CSVLayer',
+					'esri/Color',
+					'esri/symbols/SimpleMarkerSymbol',
+					'esri/renderers/UniqueValueRenderer',
+				], function(
+					topic,
+					array,
+					domGeom,
+					Map,
+					CSVLayer,
+					Color,
+					SimpleMarkerSymbol,
+					UniqueValueRenderer
+				) {
+					// Custom Javascript to be executed while the application is initializing goes here
 				
-				// The application is ready
-				topic.subscribe("tpl-ready", function(){
-					/*
-					 * Custom Javascript to be executed when the application is ready goes here
-					 */
-					$('#change-map').click(function() {
-						console.log("allo yoba");
-      		}
+					// The application is ready
+					topic.subscribe("tpl-ready", function(){
+				
+						// Custom Javascript to be executed when the application is ready goes here
+				
+						$('#change-map').click(function(){
+							console.log("HEY");
+						});
 				});
-			});
 		</script>
 	</body>
 </html>
