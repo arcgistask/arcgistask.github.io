@@ -363,10 +363,8 @@
 					/*
 					 * Custom Javascript to be executed when the application is ready goes here
 					 */
-					$('change-map').click(function() {
-						var div = document.getElementById('esri.Map_0_World_Imagery_3806');
-      			if (div.style.display !== 'none') div.style.display = 'none';
-      			else div.style.display = 'block';
+					$('#change-map').click(function() {
+						console.log("allo yoba");
       		}
 				});
 			});
